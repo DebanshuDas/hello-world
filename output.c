@@ -1,4 +1,12 @@
+char name[20];
+
 void main(){
 	printf("Hello world");
-	return 0;
+	printf(" %s",name);
+	return;
 	}
+
+void input(){
+	scanf("%s",name);
+	return;
+}
